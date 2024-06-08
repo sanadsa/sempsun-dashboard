@@ -1,0 +1,18 @@
+<div class="verification-container">
+  <div class="sub-container">
+    <div class="up">
+      <div class="title">Verify your email address</div>
+      <div class="subtitle">This helps us to keep secure your account. We have sent you a verification code to:</div>
+      <div class="email">
+        <div class="email-to-verify">{{email}}</div>
+        <label>Change</label>
+      </div>
+      <div class="resend-container">
+        <p>Didn't receive the code? <a class="resend" (click)="resendCode()">Resend</a></p>
+      </div>
+    </div>
+    <div class="down">
+      <button class="next-button" (click)="goToEnterCode()">Next</button>
+    </div>
+  </div>
+</div>

@@ -1,28 +1,22 @@
-<div class="login-container">
-  <div (click)="goBackToSignIn()" class="back">
+<div class="signup-container">
+  <div class="back">
     <img src="../../../assets/icons/back.png" alt="Back" />
   </div>
   <form (ngSubmit)="verifyEmail()" #loginForm="ngForm">
     <div class="up">
       <input class="email" type="email" name="email" ngModel placeholder="Email" required />
       <input class="password" type="password" name="password" ngModel placeholder="Password" required />
+      <input class="password" type="password" name="password" ngModel placeholder="Password" required />
+      <input class="password" type="password" name="password" ngModel placeholder="Password" required />
+      <input class="password" type="password" name="password" ngModel placeholder="Password" required />
       <div class="forgot-password">
         <div>Forgot password?</div>
       </div>
-      <p class="continue-with">Or Continue with</p>
-      <div class="social-login">
-        <div class="google-icon"></div>
-        <div class="apple-icon"></div>
-      </div>
       <div class="signup">
-        <p>Don't have an account? <a class="goToSignUp" (click)="goToSignUp()">Sign up</a></p>
+        <p>Already have an account? <a class="goToSignUp" (click)="goToSignIn()">Sign In</a></p>
       </div>
     </div>
     <div class="down">
-      <div class="login-label">
-        By logging in, you acknowledge that you have read and understood, and agree to Aboard’s Terms of
-        Service, Content Rules and Privacy Policy.
-      </div>
       <div class="agree">
         <input type="checkbox" required />
         <label>
