@@ -2,10 +2,10 @@ const Stack = createNativeStackNavigator();
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { useFonts } from "expo-font";
-import SampsunSignInResponsive from "./screens/SampsunSignInResponsive";
-import SampsunSignInResponsive1 from "./screens/SampsunSignInResponsive1";
-import SampsunSignInResponsive2 from "./screens/SampsunSignInResponsive2";
-import SampsunSignInResponsive3 from "./screens/SampsunSignInResponsive3";
+import SampsunSignInResponsive from "./screens/home";
+import SampsunSignInResponsive1 from "./screens/investment";
+import SampsunSignInResponsive2 from "./screens/exposure";
+import SampsunSignInResponsive3 from "./screens/refferalandcashback";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, Pressable, TouchableOpacity } from "react-native";
