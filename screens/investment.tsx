@@ -786,38 +786,7 @@ const SampsunSignInResponsive1 = () => {
           </View>
         </View>
       </View>
-      <View style={[styles.navbar, styles.frameParentFlexBox]}>
-        <View style={styles.frameParent8}>
-          <Text style={[styles.text68, styles.text68Typo]}>9:41</Text>
-          <Image
-            style={styles.frameChild17}
-            contentFit="cover"
-            source={require("../assets/frame-134671.png")}
-          />
-        </View>
-        <View style={styles.frameParent8}>
-          <View style={styles.product1FlexBox}>
-            <View style={styles.rectangleView} />
-            <View style={[styles.frameChild18, styles.frameChildLayout]} />
-            <View style={[styles.frameChild19, styles.frameChildLayout]} />
-            <View style={[styles.frameChild20, styles.frameChildLayout]} />
-          </View>
-          <Image
-            style={[styles.frameChild21, styles.frameChild21SpaceBlock]}
-            contentFit="cover"
-            source={require("../assets/frame-13464.png")}
-          />
-          <View style={[styles.rectangleGroup, styles.frameChild21SpaceBlock]}>
-            <View style={[styles.frameChild22, styles.frameChildPosition]} />
-            <View style={[styles.frameChild23, styles.frameChildPosition]} />
-            <Image
-              style={styles.ellipseIcon}
-              contentFit="cover"
-              source={require("../assets/ellipse-4.png")}
-            />
-          </View>
-        </View>
-      </View>
+
       <Image
         style={styles.sampsunSignInResponsiveChild}
         contentFit="cover"
